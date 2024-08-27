@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Brooklyn", sans-serif;
+}
+
+/* body styles */
+body {
+    font-family: Arial, sans-serif; 
+    background-color:violet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 20px;
+    padding: 20px; 
+}
+
+/* Homepage styles */
+.homepage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage h2 {
+    margin: 50px;
+}
+
+.homepage img {
+  width: 500px;
+  height: 500px;
+}
+
+.btn {
+    background-color: #313966;
+    border-radius: 12px;
+    color: rgb(252, 249, 249);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    transition-duration: 0.4s;
+}
+
+.btn:hover {
+    background-color: black;
+    color: white;
+}
