@@ -107,10 +107,10 @@ body {
 
 #returntomainpagebtn {
     background-color: darkblue;
+    color: rgb(252, 249, 249);
     display: inline-block;
     font-size: 20px;
     border-radius: 12px;
-    color: rgb(252, 249, 249);
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -121,6 +121,11 @@ body {
 #returntomainpagebtn:hover {
     background-color: darkslategray;
     color: white;
+}
+
+.container input[type="text"] {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
 #instructions {
