@@ -1,12 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Asterisk wild cart selector to override default styles added by the browser */
 * {
     margin: 0;
     padding: 0;
-    font-family: "Brooklyn", sans-serif;
+    font-family: "Oswald", sans-serif;
 }
+
+
 
 /* body styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: Oswald, sans-serif;
     flex-direction: column;
     justify-content: center;
     background-color: darkslategray;
@@ -26,12 +31,12 @@ body {
 }
 
 .homepage h2 {
-    margin: 50px;
+    margin: 100px;
 }
 
 .homepage img {
-    height: 500px;
     width: 800px;
+    height: 500px;
 }
 
 .homepage h2 {
@@ -40,7 +45,7 @@ body {
 
 .homepage p {
     font-size: 1.5rem;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .btn {
@@ -60,6 +65,106 @@ body {
     color: white;
 }
 
+/* game.html styles */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container h2 {
+    margin: 50px;
+}
+
+.container img {
+    width: 500px;
+    height: 500px;
+}
+
+.container button:hover {
+    background-color: black;
+    color: white;
+}
+
+.container.choice {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+}
+
+.container #scoreboard {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#player-score,
+#computer-score,
+.container #player-score,
+.container #computer-score {
+    margin: 10px;
+}
+
+#returntomainpagebtn {
+    background-color: darkblue;
+    display: inline-block;
+    font-size: 20px;
+    border-radius: 12px;
+    color: rgb(252, 249, 249);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    margin-bottom: 30px;
+}
+
+#returntomainpagebtn:hover {
+    background-color: darkslategray;
+    color: white;
+}
+
+#instructions {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#game-result {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#round-result {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.past-scores-container h3 {
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.past-scores-container tbody {
+    text-align: center;
+    justify-content: center;
+    line-height: 1.5rem;
+}
+
+
+#past-scores-table {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+
 /*footer style*/
 .footer {
     color: black;
@@ -75,4 +180,133 @@ body {
 
 .footer a:hover {
     color: darkblue;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .homepage {
+        font-size: 95%;
+    }
+
+
+    .homepage img {
+        width: 400px;
+        height: 400px;
+    }
+
+
+    .btn {
+        padding: 10px 24px;
+    }
+
+    /* game.html styles */
+    .container {
+        font-size: 95%;
+    }
+
+    .container img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .container button {
+        padding: 10px 24px;
+    }
+}
+
+@media (max-width: 768px) {
+    .homepage {
+        font-size: 90%;
+    }
+
+    .homepage {
+        font-size: 90%;
+    }
+
+    .homepage img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .btn {
+        padding: 10px 24px;
+    }
+
+    /* game.html styles */
+    .container {
+        font-size: 90%;
+    }
+
+    .past-scores-table {
+        font-size: 0.9rem;
+        max-width: 95%;
+    }
+
+    .container {
+        font-size: 90%;
+    }
+
+    .container img {
+        width: 400px;
+        height: 400px;
+    }
+
+    .past-scores-table {
+        font-size: 0.9rem;
+        max-width: 95%;
+    }
+
+    .choice,
+    .container.choice {
+        font-size: 16px;
+    }
+
+    .container button {
+        padding: 10px 24px;
+    }
+
+}
+
+@media (min-width: 321px) and (max-width: 480px) {
+
+
+    .homepage {
+        font-size: 75%;
+    }
+
+    .homepage img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .btn {
+        padding: 8px 20px;
+    }
+
+    /* game.html styles */
+    .container {
+        font-size: 75%;
+    }
+
+    .container img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container button {
+        padding: 8px 20px;
+    }
+
+    .choice,
+    .container.choice {
+        font-size: 14px;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .past-scores-table {
+        font-size: 0.8rem;
+        max-width: 90%;
+    }
+
 }

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io (1)/android-chrome-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io (1)/android-chrome-512x512.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io (1)/apple-touch-icon.png">
+    <link rel="manifest" href="assets/favicon_io (1)/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Rock Paper Scissors Lizard Spock Game</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to my RPSLS Game!</h1>
+        <input type="text" id="username" placeholder="Enter your name">
+        <button onclick="startGame()" id="playgame">Start Game</button>
+        <div id="instructions"></div>
+        <div id="choices">
+            <button class="choice" value="rock">Rock</button>
+            <button class="choice" value="paper">Paper</button>
+            <button class="choice" value="scissors">Scissors</button>
+            <button class="choice" value="lizard">Lizard</button>
+            <button class="choice" value="spock">Spock</button>
+        </div>
+        <div id="round-result">
+            <p id="computer-choice"></p>
+            <p id="result-text"></p>
+        </div>
+        <div id="scoreboard">
+            <div id="player-score">Player Score: 0</div>
+            <div id="computer-score">Computer Score: 0</div>
+        </div>
+        <div id="game-result"></div>
+        
+        <button id="playagainbtn" style="display:none;">Play Again</button>
+        <a href="index.html" id="returntomainpagebtn">Return to Main Page</a>
+    </div>
+    <div class="past-scores-container">
+        <h3>Best Scores</h3>
+        <table class="past-scores-table">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Player Score</th>
+                    <th>Computer Score</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Scores will be added here -->
+            </tbody>
+        </table>
+    </div>
+    
+    <!--Footer-->
+    <footer>
+        <div class="footer">
+            <p>Copy right &copy;2024; Designed by <span class="creator"><a href="https://github.com/laminsaidy/PP2"
+                        target="_blank">Lamin Saidy</a></span></p>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
