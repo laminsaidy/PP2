@@ -25,18 +25,29 @@ The rules of Rock-Paper-Scissors-Lizard-Spock are as follows:
 ## Existing Features
 #### <li> The landing page image </li>
 The landing page features an image on the center of the page with the rules of the game written on it. It gives you a **brief** explanation of how to go about the rules of the game. 
-<img src="">
+
+<img src="assets/images/Screenshot (198).png">
+
 #### <li> Navigation Bars </li>
-- Below the image containing the rules of the game, there is a navigation bar that allows users to navigate to the next page where the game can be started. 
-<img src="">
+- Below the image containing the rules of the game, there is a navigation bar that allows users to navigate to the next page where the game can be started.
+
+<img src="assets/images/Screenshot (199).png">
+
 - After navigating to the next page, users can see a welcoming message and they will be asked to enter there names.
-<img src="">
-- Users are provided with a start game button to be able to start playing the game. 
-<img src="">
-- Users can also go back to the main page by pressing the return to Main page button.
-<img src="">
-- Final results of the game is shown as below
-<img src="">
+
+<img src="assets/images/Screenshot (201).png">
+
+- Users can start the game by pressing the "start game" button.
+
+<img src="assets/images/Screenshot (204).png">
+
+- Users can also go back to the main page by pressing the "return to Main page" button.
+
+<img src="assets/images/Screenshot (205).png">
+
+- Final results of the game are shown at the buttom of the page.
+
+<img src="assets/images/Screenshot (206).png">
 
 # Future ideas
 - Allow users to play the game online
