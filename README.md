@@ -75,3 +75,11 @@ The landing page features an image on the center of the page with the rules of t
 - No errors were returned on the JSHint official Validator.
 
 <img src="assets/images/Screenshot (211).png">
+<br>
+
+# Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+- In the GitHub repository, navigate to the Settings tab.
+- From the source section drop-down menu, select the Main Branch.
+- Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
