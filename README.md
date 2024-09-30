@@ -49,7 +49,17 @@ The landing page features an image on the center of the page with the rules of t
 
 <img src="assets/images/Screenshot (206).png">
 
+# Footer 
+- The footer section allows the usser to be able to click on my name to access my github page
+
+<img src="assets/images/Screenshot (207).png">
+
+
 # Future ideas
 - Allow users to play the game online
 - Allow users to have the option to play with computer or with other friends
+
+# Validator 
+
+- The game is tested through the NU html Validator and no errors where found.
 
