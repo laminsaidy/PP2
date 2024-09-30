@@ -61,5 +61,17 @@ The landing page features an image on the center of the page with the rules of t
 
 # Validator 
 
-- The game is tested through the NU html Validator and no errors where found.
+## HTML
+- The game is tested through the W3C html Validator and no errors where found.
 
+<img src="assets/images/Screenshot (208).png">
+
+## CSS
+- The game is tested through the W3C CSS Validator and no errors where found.
+
+<img src="assets/images/Screenshot (210).png">
+
+## Javascript
+- No errors were returned on the JSHint official Validator.
+
+<img src="assets/images/Screenshot (211).png">
