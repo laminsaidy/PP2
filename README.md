@@ -26,7 +26,7 @@ The rules of Rock-Paper-Scissors-Lizard-Spock are as follows:
 #### <li> The landing page image </li>
 The landing page features an image on the center of the page with the rules of the game written on it. It gives you a **brief** explanation of how to go about the rules of the game. 
 
-<img src="assets/images/Screenshot (198).png">
+<img src="assets/images/newrpsls.jpg">
 
 #### <li> Navigation Bars </li>
 - Below the image containing the rules of the game, there is a navigation bar that allows users to navigate to the next page where the game can be started.
