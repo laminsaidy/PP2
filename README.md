@@ -26,33 +26,33 @@ The rules of Rock-Paper-Scissors-Lizard-Spock are as follows:
 #### <li> The landing page image </li>
 The landing page features an image on the center of the page with the rules of the game written on it. It gives you a **brief** explanation of how to go about the rules of the game. 
 
-<img src="assets/images/newrpsls.jpg">
+<img src="assets/images/Screenshot (212).png">
 
 #### <li> Navigation Bars </li>
-- Below the image containing the rules of the game, there is a navigation bar that allows users to navigate to the next page where the game can be started.
+- Below the landing page, there is a navigation bar that allows users to navigate to the next page where the game can be started.
 
-<img src="assets/images/Screenshot (199).png">
+<img src="assets/images/Screenshot (213).png">
 
-- After navigating to the next page, users can see a welcoming message and they will be asked to enter there names.
+- After navigating to the next page, users can see a welcoming message were they will be asked to enter there names.
 
-<img src="assets/images/Screenshot (201).png">
+<img src="assets/images/Screenshot (214).png">
 
 - Users can start the game by pressing the "start game" button.
 
-<img src="assets/images/Screenshot (204).png">
+<img src="assets/images/Screenshot (215).png">
 
 - Users can also go back to the main page by pressing the "return to Main page" button.
 
-<img src="assets/images/Screenshot (205).png">
+<img src="assets/images/Screenshot (216).png">
 
-- Final results of the game are shown at the buttom of the page.
+- Final results of the game are later displayed.
 
-<img src="assets/images/Screenshot (206).png">
+<img src="assets/images/Screenshot (217).png">
 
 # Footer 
 - The footer section allows the usser to be able to click on my name to access my github page
 
-<img src="assets/images/Screenshot (207).png">
+<img src="assets/images/Screenshot (218).png">
 
 
 # Future ideas
@@ -83,3 +83,9 @@ The landing page features an image on the center of the page with the rules of t
 - In the GitHub repository, navigate to the Settings tab.
 - From the source section drop-down menu, select the Main Branch.
 - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+# Credits
+- Thanks to my mentor Moritz Wach for the help with the project.
+- I use the codeinstitute walk along project for inspiration.
+- The images are sourced from: https://www.pinterest.de/pin/71705819037770497/
+- Thanks to Pedram who helped with some of the issues during the project.
